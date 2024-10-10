@@ -1,0 +1,218 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: unset;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 10px;
+    display: inline;
+    margin: 0 15px;
+    background-color:#333;
+    background-size: cover;
+    color: black;
+    position:0;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: blueviolet;
+    text-decoration:underline;
+}
+.log{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    object-fit: cover;
+    padding: 0.1;
+}
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.carousel-item:hover {
+    transform: scale(1.05);
+}
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.destination {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#333 ;
+    color:white ;
+    position:0;
+   width: 100%;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.Accommodations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Accommodation{
+     border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.Accommodation img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Accommodation:hover{
+  transform: scale(1.05);  
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.team{
+     border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.teamMember img{
+   width: 100%;
+    border-radius: 10px;  
+}
+.team:hover{
+   transform: scale(1.05);  
+}
+.shuttles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.shuttle{
+     border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.shuttle img{
+    width: 100%;
+    border-radius: 10px;
+}
+.shuttle:hover{
+  transform: scale(1.05);  
+}
